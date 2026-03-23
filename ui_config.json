@@ -1,0 +1,40 @@
+{
+  "Theme": "Dark",
+  "Language": "zh-CN",
+  "Themes": {
+    "Light": {
+      "TitleColor": "Cyan",
+      "InfoColor": "Black",
+      "SuccessColor": "Green",
+      "WarningColor": "DarkYellow",
+      "ErrorColor": "Red",
+      "SeparatorColor": "Gray",
+      "HighlightColor": "DarkCyan"
+    },
+    "Dark": {
+      "TitleColor": "Cyan",
+      "InfoColor": "White",
+      "SuccessColor": "Green",
+      "WarningColor": "Yellow",
+      "ErrorColor": "Red",
+      "SeparatorColor": "DarkGray",
+      "HighlightColor": "Cyan"
+    }
+  },
+  "LanguagePack": {
+    "zh-CN": {
+      "Title": "WSL2 工具箱",
+      "Welcome": "欢迎使用交互界面",
+      "SelectOption": "请选择操作 (0-8)",
+      "Exit": "退出",
+      "Invalid": "输入无效，请重新选择。"
+    },
+    "en-US": {
+      "Title": "WSL2 Toolbox",
+      "Welcome": "Welcome to interactive interface",
+      "SelectOption": "Please select an option (0-8)",
+      "Exit": "Exit",
+      "Invalid": "Invalid input, please retry."
+    }
+  }
+}

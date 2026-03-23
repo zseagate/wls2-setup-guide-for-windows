@@ -1,0 +1,7 @@
+# 忽略日志和报告文件
+*.log
+WSL2_Report.json
+
+# 忽略临时文件
+*.tmp
+*.bak
