@@ -22,3 +22,36 @@
 ```powershell
 cd "C:\path\to\WSL2-Setup-Guide-for-Windows"
 ```
+
+### 3️⃣ 执行启动脚本
+
+powershell
+
+```
+powershell -ExecutionPolicy Bypass -File .\InstallLauncher.ps1
+```
+
+------
+
+## 🧩 命令行模式（自动化部署）
+
+跳过菜单直接执行功能，适合批量部署：
+
+| 命令                                                         | 功能                      |
+| ------------------------------------------------------------ | ------------------------- |
+| `.\InstallLauncher.ps1 -Run install`                         | 全自动安装 WSL2           |
+| `.\InstallLauncher.ps1 -Run optimize`                        | 优化 WSL 配置             |
+| `.\InstallLauncher.ps1 -Run auto`                            | 自动执行安装+优化流程     |
+| `.\InstallLauncher.ps1 -Run summary`                         | 查看历史执行报告汇总      |
+| `.\InstallLauncher.ps1 -Run install -Lang en-US -Theme Light` | 指定英文+浅色主题执行安装 |
+
+------
+
+## 📊 输出文件
+
+
+
+| 文件               | 用途                             |
+| ------------------ | -------------------------------- |
+| `WSL2_Toolbox.log` | 文本日志，记录所有操作与异常信息 |
+| `WSL2_Report.json` | 结构化 JSON 报告，可用于统计分析 |
